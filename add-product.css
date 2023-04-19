@@ -66,55 +66,68 @@ body{
     margin-left: 5%;
     text-align: start;
 }
+
+.col-7{
+    background-color: white;
+    height: 80vh;
+    border-radius: 10px;
+
+}
 .col-4{
-    margin-top: 5%;
-    gap: 1%;
-    
-}
-.col-4 :nth-child(1){
-    width: 30%;
-    height: 90%;
-    font-size: 18px;
     background-color: white;
-    box-shadow: #c4c4c494 0px 0px 5px 1px;
-    color: rgb(72, 72, 72);
-    border: none;
+    height: 40vh;
+    border-radius: 10px;
 }
-.col-4 :nth-child(2){
-    width: 30%;
-   height: 90%;
-    font-size: 18px;
-    background-color: white;
-    box-shadow: #c4c4c494 0px 0px 5px 1px;
-    color: rgb(72, 72, 72);
-    border: none;
+.col-7 h4 {
+    text-align: start;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.line {
+    color: #d0d0d0;
+}
+.form-label{
+    text-align: start;
+    display: block;
 }
 
-.col-4 :nth-child(3){
-    width: 50%;
+.dropdown :nth-child(1) {
+    width: 100%;
+   color: #6c6c6c;
+
+}
+
+.mb-3{
+    margin-top: 5%;
+}
+.col-12{
+    background-color: #D9415D;
+}
+.col-5{
+    background-color: white; 
+    width: 39%; 
+    height: 60vh;
+    margin-top: 3%;
+    border-radius: 10px;
+
+}
+.col-5 h4 {
+    text-align: start;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.col-4 h4{
+    text-align: start;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.file {
+    
+    margin-top: 6%;
     background-color: #0158A8;
     border: none;
-    height: 90%;
+    width: 70%;
+    font-size: 12px;
     color: white;
-    
-}
-.product-container{
-    width: 99%;
-    height:130vh;
-    background-color: white;
-    margin-top: 2%;
-    border-radius: 2%;
-}
-.edit {
-    background-color: #0158A8;
-    width: 40%;
-    color: white;
-    border-radius: 5px;
-   
-}
-.delete{
-    background-color: #ce0429;
-    width: 40%;
-    color: white;
-    border-radius: 5px;
+
 }
